@@ -13,7 +13,9 @@ Per leggere e modificare i file .ipynb si è utilizzato jupyter notebook(https:/
 
 ## I file contenuti nella repository
 -La repository contiene 6 cartelle con nome che inizia per "articoli_", queste contengono gli articoli in formato json suddivisi a seconda della categoria.
+
 -AC.py è una libreria utilizzata nei vari programmi, contiene alcune funzioni utili
+
 -Le analisi sono state fatte con 5 dei file .ipynb, in ordine sarbbero:
 1. Analisi_esplorativa.ipynb
 2. Ottimizzazione.ipynb
@@ -22,7 +24,9 @@ Per leggere e modificare i file .ipynb si è utilizzato jupyter notebook(https:/
 5. Tempi.ipynb
 
 -Il sesto file .ipynb, Nuovi_articoli.ipynb, serve per provare a classificare articoli non appartenenti al dataset (funziona per altri articoli dal sito ansa.it inserendo il corrispondente indirizzo web)
+
 -La relazione e la presentazione sono contenute rispettivamente nei file "Gutu_Stefani_BigData.pdf" e "Big Data.pdf"
+
 -Infine, il programma random_search.py contiene il codice per effettuare una random search su tutti i parametri(non è stato utilizzato)
 
 ## Note
