@@ -11,9 +11,18 @@ Questo progetto comprende programmi scritti in Python e pertanto è necessario a
 Inoltre, per il corretto funzionamento di tutti i programmi è necessario avere scaricato tutti i moduli python elencati in install.txt
 Per leggere e modificare i file .ipynb si è utilizzato jupyter notebook(https://jupyter.org/), installato insieme ad Anaconda(https://www.anaconda.com/).
 
-## 
-
-
+## I file contenuti nella repository
+-La repository contiene 6 cartelle con nome che inizia per "articoli_", queste contengono gli articoli in formato json suddivisi a seconda della categoria.
+-AC.py è una libreria utilizzata nei vari programmi, contiene alcune funzioni utili
+-Le analisi sono state fatte con 5 dei file .ipynb, in ordine sarbbero:
+1) Analisi_esplorativa.ipynb
+2) Ottimizzazione.ipynb
+3) Varia_training_set.ipynb
+4) Tabelle.ipynb
+5) Tempi.ipynb
+-Il sesto file .ipynb, Nuovi_articoli.ipynb, serve per provare a classificare articoli non appartenenti al dataset (funziona per altri articoli dal sito ansa.it inserendo il corrispondente indirizzo web)
+-La relazione e la presentazione sono contenute rispettivamente nei file "Gutu_Stefani_BigData.pdf" e "Big Data.pdf"
+-Infine, il programma random_search.py contiene il codice per effettuare una random search su tutti i parametri(non è stato utilizzato)
 
 ## Note
 -Era stata fatta una versione precedente con un dataset più ristretto e si era notato che una piccola parte di articoli era scritta in inglese perciò tali articoli erano statio riclassificati manualmente come una categoria a s\'e stante(effettivamente non si potevano neanche applicare efficacemente procedure come stemming o rimozione delle stop word siccome cambiano totalmente ,o almeno in parte, a seconda della lingua utilizzata). Per una svista ci siamo dimenticati di ripetere la cosa dopo il ridimensionamento del dataset. 
