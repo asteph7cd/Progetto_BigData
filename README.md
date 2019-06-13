@@ -8,7 +8,8 @@ In particolare sono state utilizzate la rappresentazione con term-document matri
 
 ## Prerequisiti
 Questo progetto comprende programmi scritti in Python e pertanto è necessario avere installato Python3.
-Inoltre, per il corretto funzionamento di tutti i programmi è necessario avere scaricato tutti i moduli python elencati in install.txt
+Inoltre, per il corretto funzionamento di tutti i programmi è necessario avere scaricato tutti i moduli python elencati in install.txt.
+
 Per leggere e modificare i file .ipynb si è utilizzato jupyter notebook(https://jupyter.org/), installato insieme ad Anaconda(https://www.anaconda.com/).
 
 ## I file contenuti nella repository
